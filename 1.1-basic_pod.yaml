@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ckad-dev-pod
+spec:
+  containers:
+  - name: ckad-dev-container
+    image: example:latest
